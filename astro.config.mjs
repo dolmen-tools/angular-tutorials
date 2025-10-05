@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    base: '/angular-tutorials/',
+    site: "https://dolmen-tools.github.io/angular-tutorials",
+    base: "/angular-tutorials/",
 });
