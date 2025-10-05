@@ -5,4 +5,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
     site: "https://dolmen-tools.github.io/angular-tutorials",
     base: "/angular-tutorials/",
+    redirects: {
+        "/**": "https://tutorials.angular.courses"
+    }
 });
